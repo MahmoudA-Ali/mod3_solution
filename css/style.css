@@ -1,0 +1,76 @@
+body {
+	min-width: 220px;
+}
+
+/** HEADER **/
+
+.container-fluid , #nav-header {
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav-header {
+	background-color: gray;
+}
+
+.navbar-light .navbar-toggler-icon:active , .navbar-light .navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+#nav-list {
+	background-color: rgba(240, 232, 232, 0.623);
+}
+
+#nav-brand-button {
+	padding: 0 35px;
+}
+
+#nav-brand-button , #nav-list {
+	border: 1px solid black;
+}
+
+#nav-list {
+	border-top: hidden;
+	padding: 0 7px 5px;
+}
+
+#nav-list li a{
+	color: black;
+	font-weight: bold;
+	padding: 5px 0 0;
+}
+
+.nav-link:hover {
+	text-decoration: none;
+}
+
+hr {
+	margin: 5px 0 0;
+	padding: 0;
+	border-color: black;
+}
+
+.navbar-brand a h1 {
+	color: black;
+}
+
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+
+
+/**HEADER End**/
+
+/**Main Content**/
+
+#main-tiles {
+	margin: 5px;
+}
+
+.menu-tiles {
+	background-color: gray;
+	margin: 5px;
+}
+
+/**Main Content End**/
